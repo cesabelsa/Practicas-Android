@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Sección superior con fondo ilustrado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/background_onboarding">
+
+        <!-- Título de bienvenida -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="24dp" />
+
+        <!-- Descripción motivadora -->
+        <TextView
+            android:id="@+id/onboarding_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/onboarding_description"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textSize="14sp"
+            android:textColor="#6D767F"
+            android:lineSpacingExtra="8dp"
+            android:letterSpacing="0.02"
+            android:fontFamily="sans-serif"
+            android:breakStrategy="simple"
+            android:hyphenationFrequency="none"
+            />
+
+        <!-- Imagen ilustrativa (moto) -->
+        <ImageView
+            android:id="@+id/imageOnboarding"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/nomads_moto"
+            android:contentDescription="@string/onboarding_image" />
+    </LinearLayout>
+
+    <!-- Sección inferior fija con fondo negro y botón transparente -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="10dp" />
+    </LinearLayout>
+</LinearLayout>
