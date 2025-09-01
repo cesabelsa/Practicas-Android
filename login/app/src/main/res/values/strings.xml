@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="login_title">Login</string>
+    <string name="hint_user">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="get_new">Get new</string>
+    <string name="have_account">Do you have an account</string>
+    <string name="create_new">Create new </string>
+    <string name="img_desc">City Illustration</string>
+    <string name="btn_login">Login</string>
+</resources>
