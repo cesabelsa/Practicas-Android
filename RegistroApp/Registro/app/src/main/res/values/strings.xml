@@ -1,0 +1,12 @@
+
+    <resources>
+        <string name="app_name">Registro</string>
+        <string name="avatar">Avatar</string>
+        <string name="hint_nombre">¿Cómo te llamas?</string>
+        <string name="hint_apellido">¿Y tu apellido?</string>
+        <string name="hint_edad">¿Cuántos años tienes?</string>
+        <string name="btn_me_apunto">Me apunto</string>
+        <string name="politica_privacidad">Política de Privacidad</string>
+        <string name="ver_condiciones_subrayado"><u>Ver Condiciones</u></string>
+        <string name="registro">Registro</string>
+    </resources>

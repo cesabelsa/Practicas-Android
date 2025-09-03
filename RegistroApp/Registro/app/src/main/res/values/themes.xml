@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Registro" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- ===== System bars ===== -->
+        <!-- Status bar del mismo tono que la app bar -->
+        <item name="android:statusBarColor">@color/brand_primary_dark</item>
+        <!-- Iconos claros en la status bar -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Barra de navegación -->
+        <item name="android:navigationBarColor">@color/brand_primary</item>
+
+        <!-- ===== Colores de marca ===== -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/surface_bg</item>
+
+        <!-- ===== Fuente global (opcional) ===== -->
+        <!-- Añade tu .ttf/.otf en res/font/ y referencia aquí -->
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+
+        <!-- ===== Estilos por defecto de controles ===== -->
+        <item name="textInputStyle">@style/Registro.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/Registro.Button</item>
+        <item name="autoCompleteTextViewStyle">@style/Registro.AutoComplete</item>
+
+        <!-- Bordes redondeados globales -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeRounded16</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeRounded16</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeRounded16</item>
+    </style>
+
+    <!-- ===== Formas ===== -->
+    <style name="ShapeRounded16">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- ===== TextInputLayout por defecto ===== -->
+    <style name="Registro.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxStrokeColor">@color/field_stroke</item>
+        <!-- Fuente para hint/label si quieres forzarla también -->
+        <item name="hintTextAppearance">@style/Registro.HintText</item>
+    </style>
+
+    <style name="Registro.HintText" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- ===== Botones ===== -->
+    <style name="Registro.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/btn_yellow_tint</item>
+        <item name="android:textColor">@color/btn_yellow_text</item>
+        <item name="rippleColor">@color/btn_yellow_ripple</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="shapeAppearance">@style/ShapeRounded16</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- ===== AutoComplete / Menús ===== -->
+    <style name="Registro.AutoComplete" parent="Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense">
+        <item name="android:popupBackground">@color/field_bg</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+</resources>
