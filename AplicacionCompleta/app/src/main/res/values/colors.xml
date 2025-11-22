@@ -15,4 +15,12 @@
     <color name="verde_oscuro">#2E7D32</color>  <!-- Títulos / labels -->
     <color name="verde_claro">#66BB6A</color>   <!-- Texto dentro de inputs -->
 
+    <color name="amber_500">#FFC107</color>
+
+    <color name="tab_0_color">#D4EED8</color>
+    <color name="tab_1_color">#C1EAC5</color>
+    <color name="tab_2_color">#B2E2B8</color>
+    <color name="tab_3_color">#A3DBAB</color>
+    <color name="tab_selected_color">#FFFFFF</color>
+
 </resources>

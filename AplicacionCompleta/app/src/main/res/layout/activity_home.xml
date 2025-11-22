@@ -2,40 +2,40 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/root_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
             android:background="?attr/colorPrimary"
-            app:titleTextColor="?attr/colorOnPrimary"
             app:titleCentered="false" />
-        <!-- Nota: eliminé app:menu para no duplicar el menú -->
+
+        <!-- T A B L A Y O U T -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_home"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@android:color/white"
+            app:tabIndicatorColor="@color/brand_primary"
+            app:tabIndicatorHeight="3dp"
+            app:tabIndicatorFullWidth="false"
+            app:tabGravity="fill"
+            app:tabMode="fixed"/>
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Contenido principal -->
-    <FrameLayout
-        android:id="@+id/home_fragment_container"
+    <!-- VIEWPAGER -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
-    <!-- Contenedor overlay para AlquilaCocheFragment (inicialmente oculto) -->
-    <FrameLayout
-        android:id="@+id/overlay_fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="#80000000" />
-    <!-- #80 = semitransparente. Quita background si no quieres oscurecer. -->
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
