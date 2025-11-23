@@ -39,58 +39,7 @@
                     style="@style/Title.GreenBold"
                     android:layout_marginBottom="6dp" />
 
-                <!-- Botones: más grandes y casi sin separación -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <!-- Camera -->
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:adjustViewBounds="true"
-                        android:background="@android:color/transparent"
-                        android:foreground="?attr/selectableItemBackgroundBorderless"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/camara" />
-
-                    <!-- Favorite -->
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:adjustViewBounds="true"
-                        android:background="@android:color/transparent"
-                        android:foreground="?attr/selectableItemBackgroundBorderless"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/favoritos" />
-
-                    <!-- Terrain -->
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:adjustViewBounds="true"
-                        android:background="@android:color/transparent"
-                        android:foreground="?attr/selectableItemBackgroundBorderless"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/montana" />
-
-                    <!-- Face -->
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:adjustViewBounds="true"
-                        android:background="@android:color/transparent"
-                        android:foreground="?attr/selectableItemBackgroundBorderless"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/cara" />
-                </LinearLayout>
+                
 
                 <!-- Card 1 -->
                 <com.google.android.material.card.MaterialCardView
