@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Fondo cuando la pestaña está seleccionada -->
-    <item android:drawable="@drawable/tab_bg_selected" android:state_selected="true" />
-    <!-- Fondo por defecto: transparente (se ve el verde del TabLayout) -->
-    <item android:drawable="@android:color/transparent" />
-</selector>
