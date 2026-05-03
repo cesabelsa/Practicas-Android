@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_2">12dp</dimen>
+    <dimen name="space_3">16dp</dimen>
+    <dimen name="space_4">24dp</dimen>
+    <dimen name="space_5">28dp</dimen>
+    <dimen name="title_size">32sp</dimen>
+    <dimen name="input_height">64dp</dimen>
+    <dimen name="button_height">64dp</dimen>
+</resources>

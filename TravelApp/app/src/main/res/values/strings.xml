@@ -1,0 +1,15 @@
+
+<resources>
+    <string name="app_name">TravelApp</string>
+
+    <!-- Onboarding -->
+    <string name="welcome_title">Tu app de viajes</string>
+    <string name="start_button">Next</string>
+    <string name="onboarding_image">Ilustración de bienvenida</string>
+    <string name="onboarding_description">
+    Hola, estamos buscando a millones de usuarios con inquietudes y ganas de viajar. ¿Eres tú? No lo dudes, accede a nuestra app y descubrirás miles de destinos y facilidades para alquilar coches, ver el tiempo...
+</string>
+
+    <!-- Home -->
+    <string name="home_title">Upcoming meetups</string>
+</resources>

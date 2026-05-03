@@ -1,0 +1,37 @@
+<resources>
+        <string name="app_name">AplicacionCompleta</string>
+        <string name="avatar">Avatar</string>
+        <string name="hint_nombre">¿Cómo te llamas?</string>
+        <string name="hint_apellido">¿Y tu apellido?</string>
+        <string name="hint_edad">¿Cuántos años tienes?</string>
+        <string name="btn_me_apunto">Me apunto</string>
+        <string name="politica_privacidad">Política de Privacidad</string>
+        <string name="ver_condiciones_subrayado"><u>Ver Condiciones</u></string>
+        <string name="registro">Registro</string>
+        <string name="img_desc">Imagen decorativa</string>
+
+        <!-- Login -->
+        <string name="login_title">Iniciar sesión</string>
+        <string name="hint_user">Usuario</string>
+        <string name="hint_password">Contraseña</string>
+        <string name="btn_login">Entrar</string>
+        <string name="login_button">Entrar</string>
+        <string name="forgot_password">Forgot password</string>
+        <string name="get_new">Register now</string>
+        <string name="no_account">Do you have an account?</string>
+        <string name="create_new">Create new</string>
+
+        <!-- Content descriptions / accesibilidad -->
+        <string name="mostrar_ocultar_usuario">Mostrar u ocultar nombre de usuario</string>
+
+        <!-- Onboarding -->
+        <string name="welcome_title">Tu app de viajes</string>
+        <string name="start_button">Next</string>
+        <string name="onboarding_image">Ilustración de bienvenida</string>
+        <string name="onboarding_description">
+        Hola, estamos buscando a millones de usuarios con inquietudes y ganas de viajar. ¿Eres tú? No lo dudes, accede a nuestra app y descubrirás miles de destinos y facilidades para alquilar coches, ver el tiempo...
+    </string>
+    <string name="eurodisney_desc">Eurodisney</string>
+        <string name="alquilar_coche_desc">Alquila coche</string>
+    <string name="volver">volver</string>
+</resources>

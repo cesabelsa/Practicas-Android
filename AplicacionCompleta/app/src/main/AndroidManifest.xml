@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.layout.aplicacioncompleta">
+
+    <!-- Permisos de red -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- (Opcional) si vas a cargar http:// en lugar de https:// -->
+    <!-- <application android:usesCleartextTraffic="true" ... > -->
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp">
+
+        <!-- Pantalla de inicio (LAUNCHER) -->
+        
+
+        <!-- Otras pantallas internas -->
+        <activity android:name=".HomeActivity" android:exported="false" />
+        <activity android:name=".RegisterActivity" android:exported="false" />
+
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+    
+    <activity
+        android:name=".AuthActivity"
+        android:exported="false" />
+
+    <activity
+        android:name=".OnboardingActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#0B8A7A</color>
+    <color name="brand_primary_dark">#066A5E</color>
+    <color name="on_brand_primary">#FFFFFF</color>
+    <color name="surface_bg">#CCF7F1</color>             <!-- fondo de pantalla -->
+    <color name="field_bg">#E8FAF6</color>               <!-- sutil para dropdown -->
+    <color name="field_stroke">#0B8A7A</color>
+    <color name="btn_yellow">#FFC107</color>
+    <color name="btn_yellow_pressed">#FFB300</color>
+    <color name="btn_yellow_disabled">#FFE082</color>
+</resources>

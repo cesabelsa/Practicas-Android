@@ -1,0 +1,9 @@
+
+<resources>
+    <string-array name="rangos_edad">
+        <item>0-5</item>
+        <item>6-11</item>
+        <item>12-17</item>
+        <item>18-99</item>
+    </string-array>
+</resources>
