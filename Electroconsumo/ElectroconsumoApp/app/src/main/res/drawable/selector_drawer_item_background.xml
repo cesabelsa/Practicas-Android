@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Selector del menú lateral: marca la sección grande de la app donde está el usuario. -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true" android:drawable="@drawable/bg_drawer_item_selected" />
-    <item android:drawable="@drawable/bg_drawer_item_normal" />
-</selector>
