@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Electroconsumo</string>
+    <string name="imagen_principal">Imagen principal de la casa</string>
+    <string name="texto_principal">Texto principal de bienvenida</string>
+    <string name="subtitulo_portada">
+        Consulta el precio de la luz en tiempo real
+        y calcula cuánto gastas fácilmente.
+    </string>
+    <string name="texto_cuenta">¿Ya tienes cuenta?</string>
+    <string name="texto_sin_cuenta">¿No tienes cuenta?Crea una</string>
+    <string name="texto_inicia_sesion">Inicia sesión</string>
+    <string name="terminos_condiciones">
+  El uso de esta aplicación implica la aceptación de estos Términos y Condiciones. La app [nombre de la app] se ofrece para proporcionar sus servicios tal y como están disponibles, y el usuario se compromete a utilizarla de forma legal y respetuosa. Para acceder a ciertas funciones puede ser necesario crear una cuenta, y el usuario es responsable de la veracidad de la información que proporcione y de mantener la confidencialidad de sus credenciales.
+Todo el contenido, diseño y elementos de la aplicación son propiedad de [tu empresa] y están protegidos por derechos de propiedad intelectual. La app puede incluir servicios o enlaces de terceros, pero no somos responsables de su funcionamiento ni de sus políticas.Aunque trabajamos para ofrecer un servicio estable y seguro, no garantizamos que la app esté siempre disponible o libre de errores. Podemos suspender o limitar el acceso en caso de incumplimiento de estos Términos o por motivos técnicos o legales. También podremos actualizar o modificar estas condiciones cuando sea necesario, informando al usuario dentro de la app.
+El uso de la aplicación se rige por la legislación española y europea, y cualquier conflicto se resolverá ante los tribunales competentes.
+</string>
+    El responsable del tratamiento de los datos es [Nombre legal], con contacto en [email] y domicilio en [dirección]. La aplicación recopila únicamente la información necesaria para su funcionamiento, incluyendo datos de registro como nombre y correo electrónico, información sobre el uso de la app, datos técnicos del dispositivo y, en caso de que el usuario lo autorice, datos de ubicación.
+    Estos datos se utilizan para ofrecer y mejorar el servicio, personalizar la experiencia, enviar notificaciones relevantes, garantizar la seguridad y cumplir con obligaciones legales. El tratamiento se basa en el consentimiento del usuario, la prestación del servicio, intereses legítimos relacionados con mejoras técnicas y el cumplimiento de normativas aplicables. La información puede compartirse con proveedores que prestan servicios técnicos (como alojamiento, analítica o notificaciones) y con autoridades cuando la ley lo exija. En ningún caso se venden datos a terceros. Si es necesario transferir información fuera de la Unión Europea, se aplicarán garantías adecuadas como las cláusulas contractuales tipo.
+    El usuario tiene derecho a acceder, rectificar o eliminar sus datos, solicitar su portabilidad, oponerse al tratamiento y retirar su consentimiento en cualquier momento. La app aplica medidas de seguridad para proteger la información y conserva los datos solo durante el tiempo estrictamente necesario para las finalidades descritas. Cualquier cambio relevante en esta política será comunicado dentro de la aplicación o por correo electrónico.
+    <string name="politica_privacidad">
+
+</string>
+
+    <!-- Fase 14.2: textos centralizados de la Toolbar principal. -->
+    <string name="nombre_app_toolbar">Electroconsumo</string>
+    <string name="descripcion_logo_consumoapp">Logo de Electroconsumo</string>
+    <string name="toolbar_subtitulo_resumen">Resumen de consumo y precios</string>
+    <string name="toolbar_subtitulo_precio_horas">Precio de la luz por horas</string>
+    <string name="toolbar_subtitulo_graficos">Gráficos ESIOS</string>
+    <string name="toolbar_subtitulo_ajustes">Ajustes ESIOS</string>
+    <string name="accion_actualizar_esios">Actualizar datos ESIOS</string>
+    <string name="estado_esios_actualizando">Actualizando datos ESIOS…</string>
+    <string name="estado_esios_sin_conexion">Sin conexión: se mantienen los datos guardados</string>
+
+    <!-- Fase 14.8: nombres coherentes del menú horizontal ESIOS. -->
+    <string name="tab_esios_resumen">Resumen</string>
+    <string name="tab_esios_precio_hoy">Precio hoy</string>
+    <string name="tab_esios_graficos">Gráficos</string>
+    <string name="tab_esios_datos">Datos ESIOS</string>
+    <string name="tab_esios_ajustes">Ajustes ESIOS</string>
+
+    <!-- Fase 14.10: menú de tres puntos contextual y sin cerrar sesión duplicado. -->
+    <string name="accion_perfil_cuenta">Perfil y cuenta</string>
+    <string name="accion_informacion_seccion">Información de esta sección</string>
+    <string name="accion_cerrar">Cerrar</string>
+    <string name="info_esios_resumen_titulo">Resumen ESIOS</string>
+    <string name="info_esios_resumen_mensaje">Muestra una visión general de los precios, el consumo y los datos ESIOS disponibles.</string>
+    <string name="info_esios_precio_titulo">Precio de la luz hoy</string>
+    <string name="info_esios_precio_mensaje">Consulta el precio de la electricidad por horas para identificar los tramos más económicos y los más caros.</string>
+    <string name="info_esios_graficos_titulo">Gráficos ESIOS</string>
+    <string name="info_esios_graficos_mensaje">Representa visualmente la evolución de los precios para facilitar su comparación a lo largo del día.</string>
+    <string name="info_esios_datos_titulo">Datos ESIOS</string>
+    <string name="info_esios_datos_mensaje">Reúne datos históricos, estadísticas y registros guardados procedentes de ESIOS.</string>
+    <string name="info_esios_ajustes_titulo">Ajustes ESIOS</string>
+    <string name="info_esios_ajustes_mensaje">Permite configurar la actualización, la sincronización y el comportamiento de los datos ESIOS.</string>
+
+    <!-- Fase 14.12: robustez visual y accesibilidad en pantallas pequeñas. -->
+    <string name="descripcion_abrir_menu_principal">Abrir menú principal</string>
+    <string name="descripcion_abrir_cuenta_usuario">Abrir perfil y opciones de cuenta de %1$s</string>
+    <string name="tooltip_cuenta_usuario">Cuenta de %1$s</string>
+    <string name="tab_esios_visible_resumen">Resumen</string>
+    <string name="tab_esios_visible_hoy">Hoy</string>
+    <string name="tab_esios_visible_graficos">Gráficos</string>
+    <string name="tab_esios_visible_datos">Datos</string>
+    <string name="tab_esios_visible_ajustes">Ajustes</string>
+
+    <!-- Menú lateral general -->
+    <string name="menu_grupo_navegacion_principal">Explorar</string>
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_precio_luz">Precio de la luz (ESIOS)</string>
+    <string name="menu_ajustes_esios">Ajustes ESIOS</string>
+    <string name="menu_factura_consumo">Simular factura</string>
+    <string name="menu_tarifas_electricas">Tarifas eléctricas</string>
+    <string name="menu_grupo_cuenta_configuracion">Cuenta</string>
+    <string name="menu_grupo_cuenta_usuario">Cuenta · %1$s</string>
+    <string name="menu_ajustes_generales">Ajustes generales</string>
+    <string name="menu_iniciar_sesion">Iniciar sesión</string>
+    <string name="menu_crear_cuenta">Crear cuenta</string>
+    <string name="menu_cerrar_sesion">Cerrar sesión</string>
+    <string name="menu_grupo_ayuda_informacion">Ayuda</string>
+    <string name="menu_como_funciona">Cómo funciona</string>
+
+    <string name="descripcion_menu_navegacion">Abrir navegación de la aplicación</string>
+    <string name="descripcion_opcion_actual">%1$s, pantalla actual</string>
+
+
+    <!-- Fase 14.14: estado de conexión y última descarga ESIOS. -->
+    <string name="estado_esios_comprobando">Comprobando datos ESIOS…</string>
+    <string name="estado_esios_online_sin_datos">Con conexión · Sin datos ESIOS guardados</string>
+    <string name="estado_esios_offline_sin_datos">Sin conexión · Sin datos ESIOS guardados</string>
+    <string name="estado_esios_online_con_fecha">Con conexión · Última descarga: %1$s</string>
+    <string name="estado_esios_offline_con_fecha">Sin conexión · Datos guardados del %1$s</string>
+    <string name="descripcion_estado_esios">Estado de conexión y fecha de los datos ESIOS guardados</string>
+
+    <!-- Fase 14.15: pantalla de perfil y cuenta. -->
+    <string name="titulo_mi_perfil">Mi perfil</string>
+    <string name="menu_mi_perfil">Mi perfil</string>
+    <string name="perfil_datos_cuenta">Datos de la cuenta</string>
+    <string name="perfil_etiqueta_nombre">Nombre de usuario</string>
+    <string name="perfil_etiqueta_email">Correo electrónico</string>
+    <string name="perfil_etiqueta_sesion">Estado</string>
+    <string name="perfil_sesion_activa">Sesión iniciada en este dispositivo</string>
+    <string name="perfil_abrir_ajustes">Abrir ajustes generales</string>
+    <string name="perfil_edicion_pendiente">La edición de datos y el cambio de contraseña se incorporarán en una fase posterior.</string>
+    <string name="perfil_email_no_disponible">Correo no disponible</string>
+    <string name="perfil_avatar_descripcion">Avatar de %1$s</string>
+    <string name="perfil_confirmar_cierre_titulo">Cerrar sesión</string>
+    <string name="perfil_confirmar_cierre_mensaje">¿Quieres cerrar la sesión de este usuario?</string>
+
+    <!-- Fase 15.2.1: primera factura visual y aviso obligatorio. -->
+    <string name="factura_visual_titulo">Factura estimada</string>
+    <string name="factura_visual_subtitulo">Simulación detallada del suministro eléctrico</string>
+    <string name="factura_visual_error">No se ha podido cargar esta factura.</string>
+    <string name="factura_numero">Número de simulación</string>
+    <string name="factura_fecha_emision">Fecha de emisión</string>
+    <string name="factura_datos_suministro">Datos del suministro</string>
+    <string name="factura_consumo_potencia">Consumo y potencia</string>
+    <string name="factura_desglose">Desglose económico</string>
+    <string name="factura_periodo_dias">%1$d días facturados</string>
+    <string name="factura_dato_no_disponible">Dato no disponible</string>
+    <string name="factura_no_aplica">No aplicable</string>
+    <string name="factura_constantes_incluidas">Incluidas en los precios seleccionados</string>
+    <string name="factura_fuente_constantes">Fuente de constantes reguladas</string>
+    <string name="factura_aviso_estimacion">Esta factura es una estimación y no sustituye a la factura emitida por la comercializadora.</string>
+
+    <!-- Fase 15.2.2: estructura profesional y resumen gráfico. -->
+    <string name="factura_datos_titular">Datos del titular</string>
+    <string name="factura_direccion_suministro">Dirección del suministro</string>
+    <string name="factura_cups">CUPS</string>
+    <string name="factura_comercializadora">Comercializadora</string>
+    <string name="factura_tarifa">Tarifa</string>
+    <string name="factura_fuente_precios">Fuente de precios</string>
+    <string name="factura_no_configurado">No configurado</string>
+    <string name="factura_periodo_fechas">Periodo: %1$s – %2$s</string>
+    <string name="factura_dias_facturados">Días facturados</string>
+    <string name="factura_numero_electrodomesticos">Electrodomésticos incluidos</string>
+    <string name="factura_lecturas">Lecturas inicial y final</string>
+    <string name="factura_total_estimado">TOTAL ESTIMADO</string>
+    <string name="factura_distribucion_coste">Distribución del coste</string>
+    <string name="factura_distribucion_coste_descripcion">Gráfico horizontal del reparto estimado entre energía, potencia, impuestos y otros conceptos</string>
+    <string name="factura_grafico_energia">Energía y regulados asociados</string>
+    <string name="factura_grafico_potencia">Potencia y regulados asociados</string>
+    <string name="factura_grafico_impuestos">Impuestos</string>
+    <string name="factura_grafico_otros">Alquiler, ajustes y otros</string>
+
+    <string name="factura_sello_estimacion">Documento estimado</string>
+    <string name="factura_total_subtitulo">Importe aproximado del periodo</string>
+    <string name="factura_pie_documento">Generado por Electroconsumo a partir de los datos guardados en la simulación.</string>
+
+
+    <string name="comparador_filtro_todas">Todas</string>
+    <string name="comparador_filtro_sin_permanencia">Sin permanencia</string>
+    <string name="comparador_filtro_precio_unico">Precio único</string>
+    <string name="comparador_filtro_tres_periodos">Tres periodos</string>
+    <string name="comparador_filtro_descuento">Con descuento</string>
+    <string name="comparador_orden_descripcion">Ordenar resultados del comparador</string>
+    <string-array name="comparador_opciones_orden">
+        <item>Menor coste del periodo</item>
+        <item>Mayor ahorro anual</item>
+        <item>Menor coste anual</item>
+        <item>Comercializadora A-Z</item>
+    </string-array>
+
+    <string name="factura_consumo_total">Consumo total</string>
+    <string name="factura_consumo_p1">Consumo P1</string>
+    <string name="factura_consumo_p2">Consumo P2</string>
+    <string name="factura_consumo_p3">Consumo P3</string>
+    <string name="factura_potencia_p1">Potencia P1</string>
+    <string name="factura_potencia_p2">Potencia P2</string>
+
+    <!-- Fase 12: textos reutilizables del simulador y navegación -->
+    <string name="simulador_titulo">Simulador de factura</string>
+    <string name="simulador_tab_hogar">Hogar</string>
+    <string name="simulador_tab_uso">Uso</string>
+    <string name="simulador_tab_factura">Factura</string>
+    <string name="simulador_error_precio_manual">Introduce un precio válido en €/kWh</string>
+    <string name="nav_volver_atras">Volver atrás</string>
+    <string name="simulador_seccion_datos_hogar">1. Datos del hogar</string>
+    <string name="simulador_seccion_uso">2. Uso del electrodoméstico</string>
+    <string name="simulador_seccion_resultado">4. Resultado final</string>
+    <string name="simulador_siguiente_uso">Siguiente: uso</string>
+    <string name="simulador_calcular_factura">Calcular factura con esta tarifa</string>
+    <string name="simulador_comparar_tarifas">Comparar todas las tarifas</string>
+    <string name="simulador_guardar">Guardar simulación</string>
+    <string name="simulador_ver_historial">Ver historial</string>
+    <string name="simulador_volver_contrato">Volver al contrato</string>
+
+</resources>

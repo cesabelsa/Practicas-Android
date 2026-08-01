@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+        Menú lateral general.
+        Sirve para moverse por las partes grandes de la app.
+        No repite las pestañas internas del menú horizontal de ESIOS.
+    -->
+    <item
+        android:id="@+id/group_nav_principal"
+        android:title="@string/menu_grupo_navegacion_principal">
+        <menu>
+            <item
+                android:id="@+id/action_nav_main"
+                android:checkable="true"
+                android:icon="@drawable/ic_home"
+                android:title="@string/menu_inicio"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_nav_esios"
+                android:checkable="true"
+                android:icon="@drawable/ic_euro"
+                android:title="@string/menu_precio_luz"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_nav_factura"
+                android:checkable="true"
+                android:icon="@drawable/ic_chart"
+                android:title="@string/menu_factura_consumo"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_nav_tarifas"
+                android:checkable="true"
+                android:icon="@drawable/ic_chart"
+                android:title="@string/menu_tarifas_electricas"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/group_nav_cuenta"
+        android:title="@string/menu_grupo_cuenta_configuracion">
+        <menu>
+            <item
+                android:id="@+id/action_nav_mi_perfil"
+                android:checkable="true"
+                android:icon="@drawable/ic_user"
+                android:title="@string/menu_mi_perfil"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_nav_ajustes_app"
+                android:checkable="true"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_ajustes_generales"
+                app:showAsAction="never" />
+
+            <!--
+                Login y Registro siguen declarados porque este mismo menú se
+                reutiliza en pantallas sin sesión. El código los oculta cuando
+                el usuario ya está conectado.
+            -->
+            <item
+                android:id="@+id/action_nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="@string/menu_iniciar_sesion"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_nav_registro"
+                android:icon="@drawable/ic_register"
+                android:title="@string/menu_crear_cuenta"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_cerrar_sesion"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/group_nav_ayuda"
+        android:title="@string/menu_grupo_ayuda_informacion">
+        <menu>
+            <item
+                android:id="@+id/action_nav_onboarding"
+                android:icon="@drawable/ic_info"
+                android:title="@string/menu_como_funciona"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp">
+
+    <!-- Avatar grande del usuario conectado. -->
+    <TextView
+        android:id="@+id/txtDialogAvatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_avatar_circle"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="@color/titulo_principal"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Nombre mostrado como dato principal del perfil. -->
+    <TextView
+        android:id="@+id/txtDialogNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="César"
+        android:textColor="@color/titulo_principal"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <!-- Correo mostrado como información secundaria. -->
+    <TextView
+        android:id="@+id/txtDialogEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="correo@ejemplo.com"
+        android:textColor="@color/gris_texto"
+        android:textSize="14sp" />
+
+</LinearLayout>

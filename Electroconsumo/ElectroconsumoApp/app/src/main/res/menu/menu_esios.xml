@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Acciones rápidas y contextuales de la Toolbar. -->
+    <item
+        android:id="@+id/action_actualizar_esios"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/accion_actualizar_esios"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_usuario_conectado"
+        android:icon="@drawable/ic_usuario"
+        android:title="@string/accion_perfil_cuenta"
+        app:showAsAction="always" />
+
+    <!-- Única opción del menú de tres puntos: explica la sección ESIOS abierta. -->
+    <item
+        android:id="@+id/action_info_seccion_esios"
+        android:icon="@drawable/ic_info"
+        android:title="@string/accion_informacion_seccion"
+        app:showAsAction="never" />
+
+</menu>

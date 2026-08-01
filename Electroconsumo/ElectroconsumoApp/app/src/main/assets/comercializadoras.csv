@@ -1,0 +1,35 @@
+nombre_tarifa,nombre_comercializadora,fecha_actualizacion,fuente,precio_p1,precio_p2,precio_p3,potencia_p1,potencia_p2,alquiler,permanencia,descuento,servicios,observaciones
+Conecta Luz,Endesa,2026-07-13,,0.109,,,0.0937,0.0937,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa digital sin llamadas comerciales
+Conecta 3 Periodos,Endesa,2026-07-13,,0.1862,0.1178,0.0944,0.0902,0.0902,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa con discriminación horaria punta/llano/valle
+Luz 24h,Endesa,2026-07-13,,0.1443,,,0.0937,0.0937,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Luz 3 Periodos,Endesa,2026-07-13,,0.2252,0.148,0.1147,0.0937,0.0937,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Plan Estable,Iberdrola,2026-07-13,,0.145,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Plan Noche,Iberdrola,2026-07-13,,0.186,0.094,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/valle
+Plan 3 Periodos,Iberdrola,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Plan Online,Iberdrola,2026-07-13,,0.145,,,0.093,0.093,0.81,Sin permanencia,Descuento online,Sin servicios incluidos,Tarifa digital
+Plan Verano,Iberdrola,2026-07-13,,0.186,0.117,0.094,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precios especiales en verano
+Plan Invierno,Iberdrola,2026-07-13,,0.186,0.117,0.094,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precios especiales en invierno
+Por Uso Luz,Naturgy,2026-07-13,,0.112,,,0.123,0.0616,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h con potencia diferenciada
+Noche,Naturgy,2026-07-13,,0.186,0.0739,,0.123,0.0616,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/valle
+Tarifa 3 Periodos,Naturgy,2026-07-13,,0.225,0.148,0.114,0.123,0.0616,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Ahorro Plus,Repsol,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Tarifa 3 Periodos,Repsol,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Tarifa Nocturna,Repsol,2026-07-13,,0.186,0.094,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/valle
+A Tu Aire Luz,TotalEnergies,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Tarifa 3 Periodos,TotalEnergies,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Tarifa Nocturna,TotalEnergies,2026-07-13,,0.186,0.094,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/valle
+Relax,Octopus Energy,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,Octopus Energy,2026-07-13,,0.186,0.117,0.094,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Sin Permanencia,Holaluz,2026-07-13,,0.145,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Fija,Lucera,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+Indexada,Lucera,2026-07-13,,OMIE + margen,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa indexada al mercado OMIE
+Fija,Fenie Energía,2026-07-13,,0.145,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,Fenie Energía,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Fija,Gana Energía,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,Gana Energía,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Fija,Podo,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,Podo,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Fija,Imagina Energía,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,Imagina Energía,2026-07-13,,0.225,0.148,0.114,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Tarifa punta/llano/valle
+Fija,BonPreu Esclat Energia,2026-07-13,,0.129,,,0.093,0.093,0.81,Sin permanencia,No aplica,Sin servicios incluidos,Precio fijo 24h
+3 Periodos,BonPreu Esclat Energia,2026-07-13,,0.225,0.148,,,,,,,,

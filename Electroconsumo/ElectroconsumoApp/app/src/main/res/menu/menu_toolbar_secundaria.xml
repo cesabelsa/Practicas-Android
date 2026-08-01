@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_nav_ajustes_app"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_ajustes_generales"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_nav_onboarding"
+        android:icon="@drawable/ic_info"
+        android:title="@string/menu_como_funciona"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/menu_cerrar_sesion"
+        app:showAsAction="never" />
+</menu>
