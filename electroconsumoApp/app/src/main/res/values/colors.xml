@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fondos -->
+    <color name="fondo_principal">#FFFFFF</color>
+    <color name="fondo_blanco">#FFFFFF</color>
+    <color name="fondo_secundario">#E2E8F0</color>
+    <!-- Alias semántico usado por pantallas de contenido. -->
+    <color name="fondo_app">#E2E8F0</color>
+
+    <!-- Textos -->
+    <color name="titulo_principal">#133361</color>
+    <color name="texto_principal">#133361</color>
+    <color name="texto_secundario">#758CAA</color>
+    <color name="texto_legal">#758CAA</color>
+    <color name="texto_hint">#758CAA</color>
+    <color name="texto_blanco">#FFFFFF</color>
+
+    <!-- Enlaces -->
+    <color name="link">#59789F</color>
+
+    <!-- Botones -->
+    <color name="boton_primario">#133361</color>
+    <color name="boton_primario_texto">#FFFFFF</color>
+    <color name="boton_secundario">#59789F</color>
+    <color name="boton_secundario_texto">#FFFFFF</color>
+    <color name="boton_deshabilitado">#C0C4CC</color>
+    <color name="boton_deshabilitado_texto">#758CAA</color>
+
+    <!-- Campos de texto -->
+    <color name="campo_fondo">#FFFFFF</color>
+    <color name="campo_borde">#C0C4CC</color>
+    <color name="campo_borde_activo">#59789F</color>
+    <color name="campo_texto">#133361</color>
+    <color name="campo_hint">#758CAA</color>
+
+    <!-- Cards -->
+    <color name="card_fondo">#FFFFFF</color>
+    <color name="card_borde">#C0C4CC</color>
+
+    <!-- Checkbox -->
+    <color name="checkbox_borde">#59789F</color>
+    <color name="checkbox_marcado">#133361</color>
+
+    <!-- Iconos -->
+    <color name="icono_principal">#59789F</color>
+    <color name="icono_secundario">#758CAA</color>
+    <color name="icono_activo">#133361</color>
+
+    <!-- Barra superior -->
+    <color name="toolbar">#060B24</color>
+    <color name="status_bar">#060B24</color>
+
+    <!-- Divisores -->
+    <color name="divider">#C0C4CC</color>
+
+    <!-- Paleta original -->
+    <color name="azul_texto">#133361</color>
+    <color name="gris_texto">#758CAA</color>
+    <color name="azul_oscuro">#060B24</color>
+    <color name="azul_principal">#59789F</color>
+    <color name="gris_borde">#C0C4CC</color>
+    <color name="azul_claro">#A5BBD4</color>
+    <color name="azul_medio">#7D99BD</color>
+
+    <!-- Colores de periodos PVPC -->
+    <color name="verde_valle">#22A447</color>
+    <color name="naranja_llano">#F59E0B</color>
+    <color name="rojo_punta">#EF3B2D</color>
+
+    <!-- Acabado profesional de la factura estimada -->
+    <color name="factura_borde_suave">#D7DEE8</color>
+    <color name="factura_fondo_seccion">#EEF3F8</color>
+    <color name="factura_sello_fondo">#E7EEF7</color>
+    <color name="factura_texto_sobre_azul">#DCE7F5</color>
+
+</resources>

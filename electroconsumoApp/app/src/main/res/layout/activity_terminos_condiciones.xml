@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbarTerminos" android:layout_width="match_parent" android:layout_height="88dp" android:clickable="true" android:focusable="true" app:navigationIcon="@drawable/ic_arrow_back" app:navigationIconTint="@color/texto_blanco" app:title="Términos y condiciones" android:background="@drawable/bg_toolbar_moderno" app:titleTextColor="@color/texto_blanco" android:paddingTop="24dp" android:paddingStart="8dp" android:paddingEnd="8dp" android:elevation="8dp" app:contentInsetStartWithNavigation="0dp" app:contentInsetStart="0dp" app:menu="@menu/menu_toolbar_secundaria" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:fontFamily="@font/titillium_web" android:id="@+id/txtTerminos" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:textSize="14sp" android:lineSpacingExtra="4dp" />
+    </ScrollView>
+</LinearLayout>

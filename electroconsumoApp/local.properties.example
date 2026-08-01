@@ -1,0 +1,3 @@
+# Copia esta línea a local.properties y sustituye el texto por tu token real.
+# No pongas comillas. No pegues "Bearer" ni "Token token=".
+ESIOS_API_KEY=pega_aqui_tu_token_personal_de_esios

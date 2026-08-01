@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/card_borde"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/txtPuesto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1º"
+            android:textColor="@color/titulo_principal"
+            android:textStyle="bold" />
+
+        <TextView
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/txtComercializadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Comercializadora"
+            android:textColor="@color/texto_principal"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtTarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de tarifa"
+            android:textColor="@color/texto_secundario" />
+
+        <TextView
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/txtTotalComparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="0,00 €"
+            android:textColor="@color/titulo_principal"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/txtPeriodoComparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coste del periodo y proyección anual"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtDetalleComparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Energía · Potencia · Impuestos"
+            android:textColor="@color/texto_secundario"
+            android:textSize="13sp" />
+
+        <TextView
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/txtAhorro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Ahorro estimado"
+            android:textColor="@color/titulo_principal"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/card_borde" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtPreciosTarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precios de energía"
+            android:textColor="@color/texto_principal"
+            android:textSize="13sp" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtCondicionesTarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Permanencia, descuentos y servicios"
+            android:textColor="@color/texto_secundario"
+            android:textSize="13sp" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtActualizacionTarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Fecha y fuente"
+            android:textColor="@color/texto_secundario"
+            android:textSize="12sp" />
+
+        <TextView
+        android:fontFamily="@font/titillium_web"
+            android:id="@+id/txtObservacionesTarifa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Observaciones"
+            android:textColor="@color/texto_secundario"
+            android:textSize="12sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/btnVerDetalleTarifa"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Ver detalle completo"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_info"
+            app:iconGravity="textStart" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,5 @@
+// Archivo Gradle principal del proyecto.
+plugins {
+    // Declara el plugin Android una sola vez para que el módulo app pueda utilizarlo.
+    id 'com.android.application' version '8.7.3' apply false
+}

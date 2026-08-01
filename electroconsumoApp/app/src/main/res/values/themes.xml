@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConsumoApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Fuente base para textos creados desde código o componentes Material. -->
+        <item name="android:fontFamily">@font/titillium_web</item>
+        <item name="fontFamily">@font/titillium_web</item>
+    </style>
+
+    <style name="Theme.ConsumoApp" parent="Base.Theme.ConsumoApp" />
+</resources>

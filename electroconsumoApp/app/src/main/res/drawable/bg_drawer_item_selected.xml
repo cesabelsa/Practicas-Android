@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fondo suave para el elemento activo del menú lateral general. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E2E8F0" />
+    <corners android:radius="14dp" />
+</shape>

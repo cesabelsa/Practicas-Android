@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+        android:fontFamily="@font/circular_std"
+                android:id="@+id/txtLineaNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrodoméstico"
+                android:textColor="@color/titulo_principal"
+                android:textStyle="bold" />
+
+            <TextView
+        android:fontFamily="@font/titillium_web"
+                android:id="@+id/txtLineaDetalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="W · uso · horas · días · periodo"
+                android:textColor="@color/texto_secundario"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp">
+
+                <TextView
+        android:fontFamily="@font/circular_std"
+                    android:id="@+id/txtLineaConsumo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0 kWh"
+                    android:textStyle="bold" />
+
+                <TextView
+        android:fontFamily="@font/circular_std"
+                    android:id="@+id/txtLineaCoste"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Coste en Factura"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+        android:fontFamily="@font/circular_std"
+            android:id="@+id/btnEliminarLinea"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Eliminar línea"
+            android:src="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

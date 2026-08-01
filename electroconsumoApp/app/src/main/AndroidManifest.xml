@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permiso necesario para acceder a Internet y consultar ESIOS. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permiso para saber si el dispositivo tiene conexión disponible. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.ConsumoApp">
+
+        <!-- Primera pantalla -->
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".RecuperarPasswordActivity" />
+        <activity android:name=".MainActivity" android:launchMode="singleTop" />
+        <activity android:name=".MiPerfilActivity" />
+        <activity android:name=".AjustesGeneralesActivity" />
+        <activity android:name=".ComoFuncionaActivity" />
+        <activity android:name=".TerminosCondicionesActivity" />
+        <activity android:name=".PoliticaPrivacidadActivity" />
+        <activity android:name=".factura.SimuladorFacturaActivity" android:launchMode="singleTop" />
+        <activity android:name=".factura.FacturaVisualActivity" />
+        <activity android:name=".factura.HistorialSimulacionesActivity" android:launchMode="singleTop" />
+        <activity android:name=".feature.comparador.ComparadorTarifasActivity" android:launchMode="singleTop" />
+        <activity android:name=".feature.comparador.DetalleTarifaComparadaActivity" />
+
+        <!-- Receiver interno para practicar BroadcastReceiver con ESIOS. -->
+        <receiver
+            android:name=".esios.receiver.EsiosSyncReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.consumoapp.ACCION_ACTUALIZAR_ESIOS" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
